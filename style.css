@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+body{
+  background-color: rgb(245, 209, 232);
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  background-color: #ed9ff0;
+  color: white;
+  padding: 10px 5px;
+  
+}
+
+
+header div.sign-in-up button{
+  background-color: #f541d7;
+  width:125px;
+  height:50px;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: sans-serif;
+  padding: 6px 12px;
+  border: 4px solid black;
+  color:yellow;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header div.sign-in-up button:last-child{
+  background-color: #f541d7;
+  
+}
+
+.intro {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.intro h1{
+  color:rgb(209, 28, 200);
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.intro h1 span{
+  color:rgb(103, 5, 128);
+  /*text-shadow: 2px 2px 5px black;*/
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.para{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.para p{
+  color:rgb(138, 9, 177);
+  font-size: 25px;
+  font-family: sans-serif;
+  letter-spacing: .3px;
+  font-weight: bold;
+}
+
+.para p span{
+  color:rgb(252, 6, 231); 
+  font-family: cursive;  
+}
+
+
+div.popup-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+div.popup-container div.popup{
+  background-color: #f0f0f0;
+  width: 350px;
+  border-radius: 5px;
+  padding: 20px 25px 30px 25px;
+}
+
+div.popup-container div.popup h2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  color: #5f2e5d;
+}
+
+div.popup-container div.popup h2 button{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+  font-weight: 550;
+  color: #955aac;
+}
+
+div.popup-container div.popup input{
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #51305e;
+  border-radius: 0;
+  padding: 5px 0;
+  font-weight: 550;
+  font-size: 14px;
+  outline: none;
+}
+div.popup-container div.popup button.login-btn,div.popup-container div.register button.register-btn,div.popup-container div.forgot button.reset-btn{
+  font-weight: 550;
+  font-style: 15px;
+  color: white;
+  background-color: #44305e;
+  padding: 4px 10px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+div.popup-container div.popup div.forgot-btn{
+  text-align: right;
+}
+
+div.popup-container div.popup div.forgot-btn button{
+  border:none;
+  background-color: transparent;
+  outline: none;
+  font-weight: 450;
+  cursor: pointer;
+}
+
+
+
+div.popup-container div.register{
+  background-color: #edeef7;
+}
+
+div.popup-container div.register h2,div.popup-container div.forgot h2{
+  color: #b579fa;
+}
+
+div.popup-container div.register input,div.popup-container div.forgot input{
+  border-bottom-color: #bc79fa;
+}
+
+div.popup-container div.register button.register-btn,div.popup-container div.forgot button.reset-btn{
+  background-color: #c079fa;
+}
+
+div.user{
+  color: black;
+  background-color: #ec1bdb;
+  width:200px;
+  height:50px;
+  padding-left:25px;
+  padding-top:10px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 18px;
+  border:5px solid black;
+}
+div.user a{
+  color: yellow;
+}
